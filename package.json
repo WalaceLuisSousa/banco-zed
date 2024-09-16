@@ -1,0 +1,20 @@
+{
+  "name": "banco-zed",
+  "version": "1.0.0",
+  "description": "sistem de banco fullstack",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WalaceLuisSousa/banco-zed.git"
+  },
+  "author": "Walace Sousa, Gabriel Lopes",
+  "license": "ISC",
+  "type":"module",
+  "bugs": {
+    "url": "https://github.com/WalaceLuisSousa/banco-zed/issues"
+  },
+  "homepage": "https://github.com/WalaceLuisSousa/banco-zed#readme"
+}
