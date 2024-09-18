@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home User - Banco</title>
+    <link rel="stylesheet" href="/userHome.css">
 </head>
 <body>
-    teste
+    <header>
+        <h1>Banco Zed</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Conta</a></li>
+                <li><a href="#">Transações</a></li>
+                <li><a href="/index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="saldo">
+            <h2>Saldo Atual</h2>
+            <p id="saldo">R$ 1.000,00</p>
+        </section>
+        <section class="transacoes">
+            <h2>Depositos</h2>
+            <ul id="lista-transacoes">
+                <li>Depósito: R$ 500,00</li>
+            </ul>
+        </section>
+        <section class="transacoes">
+            <h2>Saques</h2>
+            <ul id="lista-transacoes">   
+                <li>Saque: R$ 200,00</li>
+            </ul>
+        </section>
+        <section class="transacoes">
+            <h2>Transferencias</h2>
+            <ul id="lista-transacoes">
+                <li>Transferência: R$ 300,00</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Banco Zed</p>
+    </footer>
 </body>
 </html>
